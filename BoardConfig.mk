@@ -49,7 +49,7 @@ ENABLE_SCHEDBOOST := true
 USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 
-# Avb
+# AVB (Android Verified Boot)
 BOARD_AVB_ENABLE := false
 
 # Bluetooth
