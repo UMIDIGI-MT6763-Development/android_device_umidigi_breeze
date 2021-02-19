@@ -40,11 +40,6 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap
-    
- # KPOC
- PRODUCT_PACKAGES += \
-     libsuspend \
-     android.hardware.health@2.0
 
 # Dex
 PRODUCT_DEXPREOPT_SPEED_APPS += \
@@ -82,6 +77,15 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.host.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.xml
+
+# KPOC
+ PRODUCT_PACKAGES += \
+     libsuspend
+
+# Offline charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
 
 # Symbols 
 PRODUCT_PACKAGES += \
