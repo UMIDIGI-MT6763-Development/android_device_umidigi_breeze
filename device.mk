@@ -54,7 +54,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/misc/factory.ini:$(TARGET_COPY_OUT_SYSTEM)/etc/factory.ini \
     $(LOCAL_PATH)/misc/custom.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/custom.conf
         
-# Init cripts
+# Ramdisk
 PRODUCT_PACKAGES += \
     init.mt6763.rc \
     fstab.mt6763 \
