@@ -50,6 +50,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# Public Libraries
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
+    
 # Init cripts
 PRODUCT_PACKAGES += \
     init.mt6763.rc \
