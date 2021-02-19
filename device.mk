@@ -57,6 +57,8 @@ PRODUCT_COPY_FILES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.mt6763.rc \
+    init.recovery.mt6763.rc \
+    init.recovery.usb.rc \
     fstab.mt6763 \
     init.safailnet.rc
 
