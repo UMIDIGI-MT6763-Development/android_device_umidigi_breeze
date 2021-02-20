@@ -16,8 +16,16 @@
 
 DEVICE_PATH := device/umidigi/breeze
 
+BOARD_VENDOR := umidigi
+
 # APEX
 TARGET_FLATTEN_APEX := true
+
+# Assertions
+TARGET_OTA_ASSERT_DEVICE := breeze, A5_Pro
+
+# system-as-root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -25,17 +33,21 @@ TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
 TARGET_CPU_ABI2 :=
 TARGET_CPU_VARIANT := generic
-TARGET_CPU_VARIANT_RUNTIME := cortex-a73
+TARGET_CPU_VARIANT_RUNTIME := cortex-a53
 
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv8-a
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
-TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
+TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53
 
-# Assertions
-TARGET_OTA_ASSERT_DEVICE := breeze, A5_Pro
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+
+# Audio
+USE_CUSTOM_AUDIO_POLICY := 1
+USE_XML_AUDIO_POLICY_CONF := 1
 
 # AVB (Android Verified Boot)
 BOARD_AVB_ENABLE := false
