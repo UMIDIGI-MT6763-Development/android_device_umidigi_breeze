@@ -6,19 +6,17 @@
 
 ### Device specifications
 
-Component Type | Details
--------:|:-------------------------
-CPU     | Octa-Core 4 x 2.0GHz ARM Cortex-A53 + 4 x 1.5GHz ARM Cortex-A53
-Chipset | MediaTek MT6763
-GPU     | ARM Mali-G71 MP2, 770 MHz
-Memory  | 4GB LPDDR4(X), 1600MHz
-Shipped Android Version | 	Android 9.0 Pie
-Storage | ROM 32GB External Memory Supports Up to 256GB (Uses SIM 2 Slot)
-Battery | Non-Removable 4150 mAh Lithium-Polymer
-Dimensions | 75.9 mm x 156 mm x 8.2 mm
-Weight | 203 g
-Display | 6.3-inches IPS FHD+ Display (1080 x 2280 Pixels)
-Camera | 16MP + 8MP + 5MP with Dual-LED and AF Triple Rear Camera | 16MP  Front Camera
+| Basic                   | Spec Sheet                                                                                                                     |
+| -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
+| CPU                     | Octa-core                                                                                                                      |
+| Chipset                 | Mediatek Helio P23 (MT6763V)                                                                                                   |
+| GPU                     | Mali-G71 MP2                                                                                                                   |
+| Memory                  | 4 GB RAM                                                                                                                       |
+| Shipped Android Version | 9.0                                                                                                                            |
+| Storage                 | 32 GB                                                                                                                          |
+| Battery                 | Non-removable Li-Po 4150 mAh battery                                                                                           |
+| Display                 | 1080 x 2280 pixels, 19:9 ratio (~400 ppi density)                                                                              |
+| Camera                  | 16MP + 8MP + 5MP with Dual-LED and AF Triple Rear Camera                                                                       | 
 
 ## Join my telegram channel to get latest updates:
 <p>
